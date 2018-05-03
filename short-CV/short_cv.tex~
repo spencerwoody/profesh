@@ -1,0 +1,117 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{article}
+
+%SPENCER NICE FONTS
+\usepackage{times}
+\usepackage{avant}
+\usepackage{inconsolata}
+
+\usepackage{fancyhdr} % Required for custom headers
+\usepackage{lastpage} % Required to determine the last page for the footer
+\usepackage{extramarks} % Required for headers and footers
+\usepackage[usenames,dvipsnames]{color} % Required for custom colors
+\usepackage{graphicx} % Required to insert images
+\usepackage{listings} % Required for insertion of code
+\usepackage{amsmath}  % Required for \text{} function
+%\usepackage{couriernew} % Required for the courier font
+\usepackage{pdfpages} %Required to embed pdf file.
+\usepackage{enumerate} % Required for enumerating with letters
+\usepackage{amssymb} %Required for QED symbols.
+\usepackage{bbm}  %Required for indicator function.
+\usepackage{float}	%Required for strict figure placement [H].
+
+%CUSTOMIZE INDENTS:
+\newcommand{\myindent}{\hspace*{1cm}}
+\setlength{\parindent}{0pt}
+
+
+% Margins
+\topmargin=-0.45in
+\evensidemargin=0in
+\oddsidemargin=0in
+\textwidth=6.5in
+\textheight=9.0in
+\headsep=0.25in
+
+\linespread{1} % Line spacing
+
+\setcounter{secnumdepth}{0} 
+\setlength\parindent{0pt} % Removes all indentation from paragraphs
+
+%----------------------------------------------------------------------------------------
+%	CODE INCLUSION CONFIGURATION
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                     HEADER                                     %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+	\Large{\textsc{Spencer Woody}} \\
+	\normalsize{\texttt{spencer.woody@utexas.edu}}\\
+	+1 (832) 369-9168\\
+	\texttt{spencerwoody.github.io}
+\end{center}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                     RESEARCH                                   %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{\textbf{\textsc{research interests}}}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                     EDUCATION                                  %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{\textbf{\textsc{education}}}
+The University of Texas at Austin (2016 -- present)\\
+PhD, Statistics. (In progress) \\ 
+
+Duke University (2011 -- 2015) \\
+BS, Economics \& Statistical Sciences (dual degree). \\
+ 
+\textit{Summary of research to be presented} \\
+
+Functional BART, a new version of the BART prior for modeling a
+function that evolves smoothly over time given other
+covariates. Applications to a timely women’s health problem, where the
+outcome of interest is measured at different gestational ages for each
+subject, conditional on covariates.
+
+
+
+\section{\textbf{\textsc{professional memberships}}}
+
+The American Statistical Association, since 2012.\\
+The International Society of Bayesian Analysis, since 2018.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%%                     WORK EXPERIENCE                             %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{\textbf{\textsc{employment}}}
+
+The University of Texas at Austin  \\
+Graduate Research Assistant for Eberlin Research Group.  (2017 - present)  \\
+Graduate Assistant, Department of Women's Health, Dell Medical School
+(2017 -- present) \\
+Graduate Research Assistant, Professor Mike Daniels (2016)
+Graduate Teaching Assistant. (2016-2017)  \\
+
+Integra Research Group (2016) \\
+Intern
+
+7-Eleven \\
+Assistant Store Manager (2015 -- 2016)
+
+
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
